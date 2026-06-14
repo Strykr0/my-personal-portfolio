@@ -29,564 +29,363 @@ export interface ProjectInterface {
 
 export const Projects: ProjectInterface[] = [
   {
-    id: "portfolio-template",
-    companyName: "Portfolio Website (130+ GitHub stars)",
-    type: "Personal",
-    category: ["Web Dev", "Frontend", "UI/UX"],
+    id: "idc-robocon",
+    companyName: "25th IDC Robocon - Robotics Competition",
+    type: "Competition",
+    category: ["Robotics","CAD Design","Mechatronics","Mechanical Design", "Competition", "Team Leadership"],
     shortDescription:
-      "Open-source Next.js portfolio template recognized and forked by developers worldwide, optimized for SEO/AEO and performance.",
-    websiteLink: "https://nbarkiya.xyz",
-    githubLink: "https://github.com/namanbarkiya/minimal-next-portfolio",
+      "A 14-days international mobile robot building competition at Shanghai, China. Lead the team Light Blue to the 4th place",
+    websiteLink: "http://www.idc-robocon.org/idc2025_eng/team.html#lightblue",
     techStack: [
-      "Next.js",
-      "React",
-      "Typescript",
-      "Tailwind CSS",
-      "Framer Motion",
-      "Vercel",
+      "ROS",
+      "C/C++",
+      "Gazebo",
+      "Fusion 360",
+      "Raspberry Pi",
+      "Arduino",
+      "Python",
+      "Wireless Communication",
+      "Mobile Robots", 
+      "Multi-Robot Systems",
     ],
-    startDate: new Date("2024-01-01"),
-    endDate: new Date("2025-12-01"),
-    companyLogoImg: "/projects/portfolio/logo.png",
+    startDate: new Date("2025-08-04"),
+    endDate: new Date("2025-08-16"),
+    companyLogoImg: "/projects/idc-robocon/mmexport1756002829383.jpg",
     pagesInfoArr: [
       {
-        title: "Landing & Sections",
+        title: "Lead Design and Development of The Arm Robot",
         description:
-          "A clean, minimal landing page with sections for skills, projects, contributions, and experience.",
-        imgArr: ["/profile-img.jpg"],
+          "Designed the robot structure and developed the control system for the arm robot, which was responsible for picking up and delivering objectives.",
+        imgArr: ["/projects/idc-robocon/logo.jpg", "/projects/idc-robocon/arm-design.png", "/projects/idc-robocon/143078.jpg"],
       },
+      {
+        title: "Co-design of The Path Builder Robot",
+        description:
+          "Overseeing the robot structure and developed the control system for the path builder robot, which was responsible for building a mobile bridge to help the arm robot cross obstacles.",
+        imgArr: ["/projects/idc-robocon/IMG20250816175223.jpg", "/projects/idc-robocon/LINE_ALBUM_2025.8.21_260612_3.jpg"],
+      },
+      {
+        title: "Placed 4th Overall and Earned the Royal Award",
+        description:
+          "Led a multinational engineering team to place 4th overall and earn the prestigious Royal Award from HRH Princess Maha Chakri Sirindhorn back in Thailand",
+        imgArr: ["/projects/idc-robocon/143079.jpg","/projects/idc-robocon/IMG20260424094339.jpg", "/projects/idc-robocon/LINE_ALBUM_2025.8.21_260612_1.jpg"],
+      }
     ],
     descriptionDetails: {
       paragraphs: [
-        "I created an open-source Next.js portfolio template to help developers ship a modern, responsive portfolio quickly.",
-        "The project focuses heavily on performance, clean typography, and strong SEO/AEO foundations, and it has been adopted and forked by developers globally.",
+        "Participated in the 25th International Design Contest (IDC) Robocon, a 14-day high-intensity engineering challenge bringing together students from global universities. The objective required designing, simulating, and physical building a multi-robot system capable of navigating complex obstacles and performing precision delivery tasks at varying elevations.",
+        "Assumed the role of Team Leader for a 5-member multinational team representing Japan, South Korea, China, Egypt, and Thailand. Spearheaded the technical direction and project lifecycle, overcoming language and communication barriers to successfully transition conceptual sketches into fully functional physical hardware under an aggressive development window.",
       ],
       bullets: [
-        "Created an open-source Next.js portfolio template recognized and forked by developers worldwide.",
-        "Ranked #1 on ChatGPT search for “best Next.js portfolio template GitHub” through AEO/GEO optimization.",
-        "Maintained a fast, responsive UI with a minimal, themeable design system.",
+        "Led a multinational engineering team to place 4th overall and earn the prestigious Royal Award out of global competitors.",
+        "Co-designed a dual-robot strategy featuring a path-builder mobile bridge and a separate delivery robot equipped with a custom 2-DOF manipulation arm.",
+        "Managed the full engineering lifecycle from initial geometric sketches to final physical assembly, electronic integration, and calibration within a strict 14-day timeline.",
       ],
     },
   },
   {
-    id: "convot",
-    companyName: "Convot",
-    type: "Personal",
-    category: ["Full Stack", "Backend", "Web Dev"],
+    id: "teachamon",
+    companyName: "Intania Hackathon: \"Teachamon\"",
+    websiteLink: "https://github.com/patteeraL/teachamon",
+    type: "Competition",
+    category: ["Full Stack", "AI", "Competition"],
     shortDescription:
-      "Production-ready AI chatbot platform that crawls, indexes, and embeds knowledge from PDFs/URLs/text to deliver source-grounded answers via a one-line widget.",
-    techStack: ["Next.js", "React", "Node.js", "Typescript", "Python"],
-    startDate: new Date("2024-04-01"),
-    endDate: new Date("2024-10-01"),
-    companyLogoImg: "/projects/convot/logo.png",
+      "An AI-driven 'teach-to-play' web application gamifying high school education. Awarded Popular Vote and Best of Design out of all entries.",
+    techStack: ["Next.js", "Typescript", "Node.js", "Python", "Tailwind CSS"],
+    startDate: new Date("2025-02-21"),
+    endDate: new Date("2025-02-23"),
+    companyLogoImg: "/projects/teachamon/143081.jpg",
     pagesInfoArr: [
       {
-        title: "Ingestion & Retrieval",
+        title: "Game Mechanics & State Management",
         description:
-          "Designed ingestion and retrieval pipelines supporting multiple content sources with secure tenant isolation.",
-        imgArr: ["/logo.png"],
+          "Implemented the core battle mechanics and frontend system logic that dynamically link student learning inputs directly with competitive game outcomes.",
+        imgArr: [
+          "/projects/teachamon/architecture.png"],
       },
+      {
+        title: "Full-Stack Development Under Pressure",
+        description:
+          "Executed a full-stack pivot in the final 24 hours, rapidly bridging the gap between the user interface and backend services to process game logic in real-time.",
+        imgArr: [
+          "/projects/teachamon/preview.png"
+        ],
+      },
+      {
+        title: "User Validation & Product Strategy",
+        description:
+          "Conducted targeted field advertisement among attendees during the hackathon to optimize our value proposition, successfully driving the community engagement that won the Popular Vote.",
+        imgArr: [
+          "/projects/teachamon/1743341381282.jpg", 
+          "/projects/teachamon/1743342439018.jpg"
+        ],
+      }
     ],
     descriptionDetails: {
       paragraphs: [
-        "Convot is a production-ready AI chatbot platform designed to be embedded on any website with a single line widget.",
-        "It supports crawling and indexing knowledge from PDFs, URLs, and plain text, and it returns context-aware, source-grounded answers with integrated analytics.",
+        "Developed during an intensive 48-hour sprint at the Intania Hackathon, Teachamon is an AI-driven educational web platform built to gamify learning for high school students. The platform leverages a unique 'teach-to-play' mechanic where users reinforce their own understanding of academic subjects by instructing in-game sprites, which then compete in real-time battles scaled entirely on the quality and depth of the knowledge imparted.",
+        "Stepping up as the primary full-stack developer, I self-taught the fundamentals of Next.js within the initial 24 hours to rapidly prototype the core layouts. In the final 24 hours, I executed a technical pivot to link the user interface with backend services while orchestrating product presentation and crowd validation strategy on the floor to maximize audience adoption.",
       ],
       bullets: [
-        "Built a production-ready AI chatbot platform with integrated analytics and a one-line embed widget.",
-        "Designed ingestion and retrieval pipelines to support multiple sources (PDFs, URLs, text) with tenant isolation.",
-        "Focused on reliability, security, and traceable answers by grounding responses in retrieved sources.",
+        "Our team secured both the Popular Vote Award (Audience Favorite) and the Best of Design Award for outstanding UI/UX and aesthetic presentation.",
+        "Self-taught and deployed a responsive Next.js frontend framework within the first 24 hours of the event.",
+        "Engineered complex game state machine logic to seamlessly connect student inputs directly to live battle simulation outcomes.",
+        "Spearheaded rapid user research on the hackathon floor, gathering real-time attendee feedback to align product mechanics with user preferences.",
       ],
     },
   },
   {
-    id: "niya-saas-template",
-    companyName: "Niya SaaS Template (30+ GitHub stars)",
+    id: "final-project",
+    companyName: "Surigcal Camera Holder Arm Robot",
     type: "Personal",
-    category: ["Full Stack", "Web Dev", "UI/UX"],
+    category: ["Mechanical Design", "Robotics", "CAD Design", "Mechatronics", "Team Leadership"],
     shortDescription:
-      "Production-ready Next.js 15 template for developers and AI startups. Includes authentication, state management, beautiful UI components, and everything needed to build scalable SaaS applications.",
-    websiteLink: "https://niya.nbarkiya.xyz",
-    githubLink: "https://github.com/namanbarkiya/niya-saas-template",
-    techStack: ["Next.js", "React", "Typescript", "Supabase", "Tailwind CSS"],
-    startDate: new Date("2024-08-01"),
+      "Led a 4-member team to design and prototype a 2R1T Remote Center of Motion (RCM) robotic arm assisting surgeons in minimally invasive procedures.",
+    techStack: ["Fusion 360", "Raspberry Pi", "Python", "Kinematic Simulation", "Fabrication"],
+    startDate: new Date("2025-08-04"),
+    endDate: new Date("2026-05-15"),
+    companyLogoImg: "/projects/final-project/cad1.png",
+    pagesInfoArr: [
+      {
+        title: "End-Effector & Clamping Design",
+        description:
+          "Personally designed a spring-loaded, normally closed modular camera clamper and sliding dock mechanism in Fusion 360 to allow safe manual tool insertion prior to robotic engagement.",
+        imgArr: [
+          "/projects/final-project/camera.png",
+          "/projects/final-project/clamper1.png",
+          "/projects/final-project/spring-clamper.png"
+        ],
+      },
+      {
+        title: "Prototyping & Precision Fabrication Tracking",
+        description:
+          "Managed the full physical execution, executing proof-of-concept assembly via 3D printing before supervising professional precision metal machining to hit surgical tolerances.",
+        imgArr: [
+          "/projects/final-project/IMG20260429202107.jpg",
+          "/projects/final-project/IMG20260507191552.jpg",
+          "/projects/final-project/143094.jpg"
+        ],
+      }
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "In this senior capstone project, I stepped up as the Team Leader to coordinate the timeline and structural workspace compatibility analysis for a 2R1T Remote Center of Motion surgical robot. Beyond high-level management and serving as the primary bridge to our medical advisors, my engineering responsibilities sat squarely at the intersection of critical mechanical assemblies, hands-on fabrication execution, and baseline embedded software architecture.",
+        "To ensure patient safety, I focused my mechanical design on the modular docking end-effector, creating a mechanism that isolates structural forces while ensuring quick tool detachment. On the software side, I bypassed complex application layers to write the direct low-level motor array controls, validating communication protocols before the broader kinematic simulation filters were integrated."
+      ],
+      bullets: [
+        "Managed the overall engineering lifecycle timeline and structural workload distribution for a 4-member robotics team.",
+        "Personally designed the spring-loaded camera probe holder end-effector and modular sliding docker assembly in Autodesk Fusion 360.",
+        "Authored the foundational C/C++ control scripts for the motor array to initialize baseline serial communication and joint movement protocols.",
+        "Executed extensive 3D printing runs (FDM/SLA) using PLA/PETG filaments to troubleshoot early kinematic geometry and mechanical play.",
+        "Supervised precision metal machining of 6061 aluminum alloy replacements to minimize linkage compliance and address structural leeway tolerances."
+      ],
+    },
+  },
+  {
+    id: "smart-pet-feeder",
+    companyName: "IoT project: Smart Pet Feeder",
+    type: "Personal",
+    category: ["IoT Systems", "Embedded Systems", "Hardware Integration", "Team Leadership"],
+    shortDescription:
+      "Led the system integration for a dual-processor automated pet feeder combining STM32 sensor automation with a Raspberry Pi IoT gateway.",
+    techStack: [
+      "C/C++",
+      "Python",
+      "STM32",
+      "Raspberry Pi",
+      "UART/Serial Communication",
+      "Cloud Dashboard",
+      "Circuit Design"
+    ],
+    startDate: new Date("2024-09-01"), // Structured for Year 3, Semester 1 timeline
+    endDate: new Date("2024-11-01"),
+    companyLogoImg: "/projects/smart-pet-feeder/IMG_5550.jpg",
+    pagesInfoArr: [
+      {
+        title: "Dual-Processor Microarchitecture & Networking",
+        description:
+          "Established a reliable UART serial communication link between an STM32 Nucleo controller and a Raspberry Pi 4B acting as an IoT gateway to route operational telemetry straight to a remote NETPIE cloud dashboard.",
+        imgArr: [
+          "/projects/smart-pet-feeder/NETPIE.png"
+        ],
+      },
+      {
+        title: "Actuator Interfacing & Power Supply Routing",
+        description:
+          "Engineered exact driver control logic for a continuous servo motor food dispenser and a water pump mechanism, designing the full system power distribution layout and wiring harnesses.",
+        imgArr: [
+          "/projects/smart-pet-feeder/circuit-diagram.png",
+          "/projects/smart-pet-feeder/IMG_5552.jpg"
+        ],
+      },
+      {
+        title: "Physical Prototyping & Adaptive Fabrication",
+        description:
+          "Overcame localized workshop closures during the development lifecycle by fabricating the final physical housing manually inside a personal workshop using custom-cut wood and structural aluminum plates.",
+        imgArr: [
+          "/projects/smart-pet-feeder/IMG_5550.jpg"
+        ],
+      }
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "Developed over an intensive 2-month period during my third academic year, the Automatic Smart Pet Feeder is an integrated IoT system featuring a dual-processor microarchitecture. The platform couples low-level deterministic sensor polling via an STM32 microchip alongside a high-level Raspberry Pi computer. This structure safely isolates machine learning-based pet identification pipelines and cloud-based logging scripts from core mechanical actuation.",
+        "Serving as the Team Leader and Systems Integrator, I was responsible for the end-to-end telemetry loop, power management, and internal structural layout. I focused on making the device resilient to environmental constraints, ensuring that code integration and electrical routing protected against signal line noise or physical component drops during continuous operation."
+      ],
+      bullets: [
+        "Supervised the complete system lifecycle, delegating modular sensor calibration routines to team members while personally owning the main codebase integration.",
+        "Programmed the core firmware on an STM32 Nucleo-F411RE platform to manage a diverse sensor suite including Ultrasonic distance metrics, IR levels, and liquid depth data.",
+        "Engineered precision PWM and digital interface controls to manage high-draw actuators, specifically an automated water pump and a continuous rotation servo motor.",
+        "Architected a robust serial data pipeline via UART between the microcontrollers, configuring continuous data transmission streams to the NETPIE cloud platform for live status reporting.",
+        "Designed the full system electrical power supply configuration and executed all wiring, ensuring clean voltage lines to protect sensitive sensor logic from motor inductive spikes.",
+        "Hand-built the custom mechanical chassis using wood and aluminum elements within a personal workspace to bypass unexpected laboratory and workshop resource closures."
+      ],
+    },
+  },
+  {
+    id: "hybrid-nut-sorting-system",
+    companyName: "Academic Research: Computer Vision & Machine Learning",
+    websiteLink: "https://doi.org/10.1109/ICMCR64890.2025.10962883",
+    type: "Personal",
+    category: ["Computer Vision", "Human-Machine Interface", "Mechatronics", "Research"],
+    shortDescription:
+      "Co-authored a research paper accepted by ICMCR for a vision-based industrial sorting system, directly owning the full Human-Machine Interface (HMI) stack.",
+    techStack: [
+      "Python",
+      "Tkinter",
+      "OpenCV",
+      "Raspberry Pi",
+      "CoreXY Kinematics",
+      "Technical Research Writing"
+    ],
+    startDate: new Date("2024-11-01"),
     endDate: new Date("2025-01-01"),
-    companyLogoImg: "/projects/niya/logo.png",
+    companyLogoImg: "/projects/nut-sorting/logo.gif",
     pagesInfoArr: [
       {
-        title: "Landing Page",
+        title: "Human-Machine Interface (HMI) Development",
         description:
-          "Modern landing page showcasing the template features, tech stack, and pricing options.",
-        imgArr: ["/logo.png"],
-      },
-      {
-        title: "Authentication System",
-        description:
-          "Complete authentication system with Supabase, protected routes, and role-based access control.",
-        imgArr: ["/logo.png"],
-      },
-      {
-        title: "Dashboard & Components",
-        description:
-          "Beautiful UI components with Magic UI, Radix primitives, and comprehensive dashboard templates.",
-        imgArr: ["/logo.png"],
+          "Engineered a native desktop application using Python's Tkinter framework, building an interactive dashboard that translates downstream computer vision matrices into clean real-time readouts.",
+        imgArr: [
+          "/projects/nut-sorting/UI_bg.gif"
+        ],
       },
     ],
     descriptionDetails: {
       paragraphs: [
-        "Niya is a production-ready Next.js 15 template designed for developers and AI startups. Built with modern best practices, it includes everything needed to build scalable SaaS applications.",
-        "The template features a complete authentication system with Supabase, beautiful UI components with Magic UI and Radix primitives, state management with Zustand and React Query, and full TypeScript support with Zod validation.",
-        "It's optimized for performance, includes SEO-friendly metadata, and provides a solid foundation for rapid prototyping and production deployment.",
+        "Executed over a 2-month cycle during my third academic year, this mechatronics project produced an automated, vision-driven industrial classification system designed to inspect, categorize, and physically sort industrial hardware nuts by dimensions. The ultimate verification of this system culminated in a peer-reviewed, co-authored research paper accepted for publication and presentation at the International Conference on Mechatronics, Control, and Robotics (ICMCR).",
+        "As the GUI Designer for the project, my primary responsibility was closing the loop between complex classification backends and physical human operators. I focused heavily on building a lightweight, non-blocking interface architecture that allows real-time camera management and deterministic override interventions without introducing tracking latency to the high-speed sorting hardware."
       ],
       bullets: [
-        "Created a production-ready Next.js 15 template with complete authentication system and protected routes.",
-        "Integrated Supabase for database, authentication, and real-time features with full TypeScript support.",
-        "Built comprehensive UI component library with Magic UI, Radix primitives, and Tailwind CSS styling.",
-        "Implemented state management with Zustand for client state and React Query for server state management.",
-        "Designed for developers and AI startups with all essential features to start building SaaS products.",
-        "Achieved 30+ GitHub stars and recognition as a comprehensive starter template for modern web applications.",
+        "Engineered a custom standalone Graphical User Interface (GUI) utilizing Python's Tkinter library to enable seamless, real-time human interaction with the machine vision pipelines.",
+        "Embedded live, low-latency video capture streams into the layout windows, authoring control modules for frame capture triggers, hardware toggle switches, and size-selection fallbacks.",
+        "Contributed to the technical manuscript creation, analyzing and writing the performance logs covering detection tolerances and sorting efficiency variables for the final ICMCR paper submission."
       ],
     },
   },
   {
-    id: "portfolio-card",
-    companyName: "Portfolio Card",
+    id: "gesture-controlled-robot",
+    companyName: "ISE & IDCU Joint Project: Mechatronics",
+    websiteLink: "https://youtu.be/iyhPu2WVQhs", 
     type: "Personal",
-    category: ["Web Dev", "Frontend", "3D Modeling"],
+    category: ["Mechatronics", "Mechanical Design", "Interdisciplinary Coordination"],
     shortDescription:
-      "Forged an immersive 3D Portfolio Card utilizing the prowess of Three.js and Blender, where art and technology converge in an interactive masterpiece.",
-    websiteLink: "https://card.namanbarkiya.xyz/",
-    githubLink: "https://github.com/namanbarkiya/3d-portfolio-card",
-    techStack: ["React", "Javascript", "HTML 5", "CSS 3"],
-    startDate: new Date("2022-03-01"),
-    endDate: new Date("2022-07-01"),
-    companyLogoImg: "/projects/card/logo.png",
-    pagesInfoArr: [
-      {
-        title: "Card Views",
-        description: "Front and back views of the interactive 3D card",
-        imgArr: ["/projects/card/card_2.webp", "/projects/card/card_3.webp"],
-      },
-      {
-        title: "Interactive Elements",
-        description:
-          "Custom links embedded in the 3D model with interactive animations",
-        imgArr: ["/projects/card/card_1.webp"],
-      },
-      {
-        title: "3D Model Development",
-        description: "Blender project showcasing the model creation process",
-        imgArr: ["/projects/card/card_4.webp"],
-      },
-    ],
-    descriptionDetails: {
-      paragraphs: [
-        "In my personal, I've ventured into the world of creativity, fashioning a distinctive portfolio card through the utilization of Three.js.",
-        "This portfolio card transcends convention; it emerges as a captivating 3D model, adorned with meticulous lighting arrangements that conjure a spellbinding visual journey.",
-        "To materialize this concept, I've harnessed the combined potential of Three.js and Blender, orchestrating a meticulous crafting of the central 3D model that serves as the cornerstone of the card's allure.",
-        "Yet, the allure extends beyond aesthetics. I've ingeniously interwoven custom links directly into the fabric of Three.js components. Through the creation and seamless integration of novel components, these additions elegantly rest upon the card's surface, mirroring its rotations and delivering an interactive dimension to my portfolio.",
-        "The portfolio card itself is an opus of motion, perpetually swaying in an auto-rotational dance that unfurls its multifaceted essence. As an enhancement, I've introduced an instinctive user interaction element. A simple, intuitive drag of the card in specific directions grants viewers a comprehensive vantage, enabling exploration from every conceivable angle.",
-        "At its core, my personal epitomizes technical finesse, artistic expression, and interactive design. The amalgamation of Three.js, Blender's prowess, and the innovation of component integration has birthed not only a portfolio card, but a dynamic encounter leaving an indelible imprint on all who partake.",
-      ],
-      bullets: [
-        "Conceptualized and realized a distinct portfolio card using Three.js, highlighting creative exploration.",
-        "Crafted a mesmerizing 3D model enhanced by thoughtful lighting arrangements, resulting in a captivating visual voyage.",
-        "Leveraged the synergy of Three.js and Blender to meticulously sculpt and refine the central 3D model, embodying meticulous attention to detail.",
-        "Innovatively integrated custom links within Three.js components, introducing an interactive layer via seamlessly incorporated new elements.",
-        "Enabled an auto-rotating feature for the portfolio card, perpetually showcasing its various facets to observers.",
-        "Introduced an instinctual user interaction mechanism, allowing viewers to comprehensively explore the card's dimensions through simple, intuitive dragging motions.",
-        "Represented a fusion of technical prowess, artistic ingenuity, and interactive design in a project that reshapes the boundaries of conventional portfolio representation.",
-      ],
-    },
-  },
-  {
-    id: "the-super-focus",
-    companyName: "TheSuperFocus",
-    type: "Personal",
-    category: ["Full Stack", "Web Dev", "UI/UX"],
-    shortDescription:
-      "Pomodoro-inspired productivity web app with real-time sessions and recurring payments.",
+      "Coordinated an interdisciplinary team of Engineering and Industrial Design students to build a mobile robot capable of firing projectiles via hand gestures.",
     techStack: [
-      "Next.js",
-      "React",
-      "Node.js",
-      "Socket.io",
-      "Typescript",
-      "MongoDB",
+      "Fusion 360",
+      "3D Printing",
+      "Interdisciplinary Workflow Management",
+      "Hardware Integration & Troubleshooting"
     ],
-    startDate: new Date("2023-06-01"),
-    endDate: new Date("2023-12-01"),
-    companyLogoImg: "/logo.png",
+    startDate: new Date("2024-01-15"), // Formatted chronologically for your academic milestone order
+    endDate: new Date("2024-05-20"),
+    companyLogoImg: "/projects/gesture-robot/logo.png",
     pagesInfoArr: [
       {
-        title: "Realtime Focus Sessions",
+        title: "Interdisciplinary System Architecture",
         description:
-          "Built real-time focus sessions using sockets to help people stay accountable and productive.",
-        imgArr: ["/logo.png"],
+          "Managed the division of labor between technical engineering tracks and aesthetic Industrial Design streams, coordinating how the external cosmetic shell integrated onto the functional core chassis.",
+        imgArr: [
+          "/projects/gesture-robot/robot-frame.png",
+        ],
       },
+      {
+        title: "Chassis Development Lifecycle",
+        description:
+          "Led the end-to-end mechanical engineering cycle for the main structural frame, transforming early spatial sketches into a rigid physical chassis layout.",
+        imgArr: [
+          "/projects/gesture-robot/design.png",
+        ],
+      },
+      {
+        title: "Sub-Assembly Hardware Optimization",
+        description:
+          "Oversaw physical validation sprints for the driving chassis base, launching cannon flywheels, and automated targets to systematically clear mechanical blockages prior to software handoff.",
+        imgArr: [
+          "/projects/gesture-robot/cannon.png"
+        ],
+      }
     ],
     descriptionDetails: {
       paragraphs: [
-        "TheSuperFocus is a productivity web app inspired by the Pomodoro technique, built to help users stay focused and complete deep-work sessions.",
-        "It includes real-time session support and a paid tier with recurring billing.",
+        "This project represents a joint capstone initiative between International School of Engineering (ISE) and Industrial Design Chulalongkorn University (IDCU) students. The goal was to build a gesture-driven mobile robot engineered to detect spatial hand triggers and translate commands into precise projectile firing. The development pipeline forced a tight marriage between complex algorithmic recognition loops and highly stable physical launching dynamics.",
+        "Serving as the Physical Design Coordinator and Lead Assembler, my job was to bridge the gap between creative form and rigid mechanical function. I orchestrated the physical interface boundaries, ensuring that components like the target sensors, actuation linkages, and power channels aligned perfectly with the visual housing constraints without compromising overall performance."
       ],
       bullets: [
-        "Built a Pomodoro-inspired productivity web app using real-time sockets.",
-        "Integrated Razorpay for recurring payments, securing 10+ premium users.",
+        "Managed the division of labor between Engineering and Industrial Design (ID) students, delegating the cosmetic masking shell to the ID team while focusing engineering assets on core mechanical functionality.",
+        "Led the end-to-end structural design and physical assembly of the robot’s load-bearing chassis, transforming conceptual geometry sketches into the final physical machine architecture.",
+        "Monitored construction milestones across the tracking chassis, motorized firing cannon, and autonomous target range modules to maintain component synergy.",
+        "Implemented mechanical modifications, bearing adjustments, and alignment corrections on the fly to guarantee all physical units were integrated and ready for software deployment."
       ],
     },
   },
   {
-    id: "built-design",
-    companyName: "Builtdesign",
-    type: "Professional",
-    category: ["Web Dev", "Full Stack", "UI/UX"],
+    id: "combat-robot-replica",
+    companyName: "Academic Project: Engineering Design Process",
+    websiteLink: "", 
+    type: "Personal",
+    category: ["Mechanical Design", "CAD Design", "Robotics"],
     shortDescription:
-      "Developed and optimized a high-performing website catering to over 4000 users, emphasizing efficiency and maintainability.",
-    websiteLink: "https://builtdesign.in",
+      "Engineered a high-fidelity, fully articulated 3D assembly model of a heavyweight combat robot replica in CATIA, featuring a custom gear-driven powertrain.",
     techStack: [
-      "Next.js",
-      "React",
-      "Node.js",
-      "MongoDB",
-      "GraphQL",
-      "Nest.js",
-      "Typescript",
+      "Dassault Systèmes CATIA",
+      "Assembly Design",
+      "Gear-Driven Transmission",
+      "Kinematic Simulation"
     ],
-    startDate: new Date("2021-07-01"),
-    endDate: new Date("2022-07-01"),
-    companyLogoImg: "/projects/builtdesign/logo.png",
+    startDate: new Date("2024-03-01"),
+    endDate: new Date("2024-04-01"),
+    companyLogoImg: "/projects/tombstone/final.png",
     pagesInfoArr: [
       {
-        title: "Landing Page",
+        title: "Solid Modeling & Chassis Design",
         description:
-          "Modern and responsive landing page showcasing company services and portfolio",
+          "Transformed initial conceptual geometric sketches into a comprehensive, high-fidelity 3D assembly model of the robot's whole structure and internal hardware housing.",
         imgArr: [
-          "/projects/builtdesign/landing_1.webp",
-          "/projects/builtdesign/landing_3.webp",
-          "/projects/builtdesign/landing_5.webp",
-          "/projects/builtdesign/landing_6.webp",
-          "/projects/builtdesign/landing_2.webp",
-          "/projects/builtdesign/landing_4.webp",
+          "/projects/tombstone/sketch-design.png",
         ],
       },
       {
-        title: "Custom PDF Reader and optimizer",
+        title: "Mechanism Design & Powertrain Kinematics",
         description:
-          "Specialized PDF viewer with optimization features for improved performance and user experience",
-        imgArr: ["/projects/builtdesign/pdf_opt.webp"],
-      },
-      {
-        title: "Clients Dashboard",
-        description:
-          "Comprehensive client portal with project tracking, document management, and communication tools",
+          "Developed a custom gear-driven transmission drivetrain system within CATIA to accurately synchronize high-torque motor outputs directly with high-velocity front blade weapon rotations. (youtube video of the simulation in action: coming soon)",
         imgArr: [
-          "/projects/builtdesign/cli_dashboard_1.webp",
-          "/projects/builtdesign/cli_dashboard_2.webp",
-          "/projects/builtdesign/cli_dashboard_3.webp",
+          "/projects/tombstone/blade-mount.png",
         ],
-      },
-      {
-        title: "Admin Dashboard",
-        description:
-          "Powerful administrative interface for managing users, projects, and system settings",
-        imgArr: ["/projects/builtdesign/logo.png"],
-      },
+      }
     ],
     descriptionDetails: {
       paragraphs: [
-        "During my time at Builtdesign, I had the opportunity to work on a dynamic and user-focused project that involved designing and optimizing a website catering to a user base of over 4000 individuals. My role as a full-stack web developer was to ensure a seamless experience for users by creating an efficient and maintainable platform.",
-        "I collaborated closely with the product team to integrate cutting-edge features, employing technologies like Next.js and React with TypeScript for captivating front-end experiences. Additionally, I contributed significantly to the backend by utilizing Node.js, MongoDB, and GraphQL to design robust APIs and ensure smooth system functionality.",
-        "This experience allowed me to enhance my skills in various areas of web development and deliver a high-quality product. I gained proficiency in front-end technologies such as Material UI and Tailwind CSS, as well as backend technologies including Nest.js and MySQL. The project's success in catering to a large user base and providing an intuitive user interface has further motivated me to pursue excellence in web development.",
+        "This mechanical design project focused on recreating a fully articulated 3D replica of a heavyweight combat robot, modeled after the iconic 'Tombstone'. The entire workflow was centered around absolute mechanical realism, utilizing Dassault Systèmes CATIA software to map out complex spatial geometry, verify part interference interfaces, and validate assembly integration profiles.",
+        "Delivered under a high-intensity 48-hour execution sprint, my individual engineering focus was pushing past basic visual shapes to ensure complete structural feasibility. I engineered the internal transmission mechanics, selecting tooth distributions and checking clearances to ensure that the virtual prototype could structurally withstand realistic rotational loading conditions without spatial collisions."
       ],
       bullets: [
-        "Developed and optimized a high-performing website catering to over 4000 users.",
-        "Collaborated closely with the product team to implement cutting-edge features.",
-        "Created an intuitive admin dashboard to efficiently manage and announce contest winners.",
-        "Leveraged Next.js, React with TypeScript for captivating front-end experiences.",
-        "Utilized Node.js, MongoDB, and GraphQL to design and manage databases.",
-      ],
-    },
-  },
-  {
-    id: "the-super-quotes",
-    companyName: "The Super Quotes",
-    type: "Professional",
-    category: ["Mobile Dev", "Full Stack", "UI/UX"],
-    shortDescription:
-      "Elevated The Super Quotes app with JavaScript, React Native, APIs, Redux magic, and Google Play Store debut.",
-    websiteLink:
-      "https://play.google.com/store/apps/details?id=com.thesuperlife",
-    techStack: ["React Native", "Node.js", "MongoDB", "Javascript"],
-    startDate: new Date("2021-07-01"),
-    endDate: new Date("2022-07-01"),
-    companyLogoImg: "/projects/superquotes/logo.png",
-    pagesInfoArr: [
-      {
-        title: "Quotes View Page",
-        description:
-          "Elegantly designed quotes display with customizable themes and sharing options",
-        imgArr: ["/projects/superquotes/app_2.webp"],
-      },
-      {
-        title: "Quotes Download Component",
-        description:
-          "Feature allowing users to download quotes as beautiful images for social media sharing",
-        imgArr: [
-          "/projects/superquotes/app_4.webp",
-          "/projects/superquotes/app_7.webp",
-        ],
-      },
-      {
-        title: "Account Management",
-        description:
-          "User profile management with favorites, history, and personalization settings",
-        imgArr: ["/projects/superquotes/app_6.webp"],
-      },
-      {
-        title: "Interest Selection and Update Page",
-        description:
-          "Interactive interface for users to select and update their quote preferences and interests",
-        imgArr: [
-          "/projects/superquotes/app_1.webp",
-          "/projects/superquotes/app_3.webp",
-        ],
-      },
-      {
-        title: "Responsiveness",
-        description:
-          "Adaptive design ensuring optimal user experience across various device sizes and orientations",
-        imgArr: ["/projects/superquotes/app_5.webp"],
-      },
-    ],
-    descriptionDetails: {
-      paragraphs: [
-        `Venturing into the world of creativity at The Super Quotes was an exhilarating journey. As a passionate developer, I led the charge in crafting a compelling application from inception to completion, using the dynamic duo of JavaScript and React Native.`,
-        `The heart of my achievement lay in the seamless integration of APIs, threading a tapestry of data flow that propelled the application's functionality to new heights.`,
-        `With the wizardry of Redux, I choreographed a symphony of state management and performance optimization, orchestrating a ballet of responsiveness that wowed users with every interaction.`,
-        `A crescendo awaited as I unveiled the culmination of my work on the grand stage of the Google Play Store. The app's debut marked an epoch, opening doors to an expansive audience eager to embrace the charm of The Super Quotes.`,
-      ],
-      bullets: [
-        "Led the end-to-end development of a captivating application using JavaScript and React Native.",
-        "Championed the integration of APIs, harmonizing data flow and enhancing application functionality.",
-        "Conducted Redux magic to ensure state management and optimize performance, delivering a mesmerizing user experience.",
-        "Premiered the application on the Google Play Store, capturing hearts and expanding its user base.",
-      ],
-    },
-  },
-  {
-    id: "apex-shopping",
-    companyName: "Apex Shopping App",
-    type: "Personal",
-    category: ["Mobile Dev", "Full Stack", "UI/UX"],
-    shortDescription:
-      "Developed a feature-rich mobile shopping application with admin panel, user authentication, and seamless product management using React Native and Firebase.",
-    githubLink: "https://github.com/namanbarkiya/apex-shopping-app",
-    techStack: ["React Native", "Javascript", "Redux", "Node.js", "express.js"],
-    startDate: new Date("2021-07-14"),
-    endDate: new Date("2022-07-01"),
-    companyLogoImg: "/projects/apex/logo.png",
-    pagesInfoArr: [
-      {
-        title: "Splash Screen",
-        description: "Custom animated splash screen with app branding",
-        imgArr: ["/projects/apex/app_7.webp"],
-      },
-      {
-        title: "Login/Signup Authentication",
-        description: "Secure user authentication system with Firebase",
-        imgArr: ["/projects/apex/app_1.webp"],
-      },
-      {
-        title: "All Products Explore Screen",
-        description: "Interactive product browsing with categories and filters",
-        imgArr: ["/projects/apex/app_3.webp"],
-      },
-      {
-        title: "Admin Panel",
-        description:
-          "Comprehensive admin dashboard for product and order management",
-        imgArr: ["/projects/apex/app_4.webp", "/projects/apex/app_6.webp"],
-      },
-      {
-        title: "Sidenav Navigation",
-        description: "Intuitive side navigation for easy app navigation",
-        imgArr: ["/projects/apex/app_5.webp"],
-      },
-      {
-        title: "Firebase Database",
-        description:
-          "Real-time database structure for efficient data management",
-        imgArr: ["/projects/apex/db.webp"],
-      },
-    ],
-    descriptionDetails: {
-      paragraphs: [
-        "The Apex Shopping App represents a comprehensive mobile e-commerce solution that I developed from the ground up using React Native and Firebase. This project showcases my ability to create a full-featured shopping application with both user and admin functionalities.",
-        "The application features a robust authentication system, allowing users to securely sign up and log in. The product exploration interface is designed with user experience in mind, incorporating smooth navigation and intuitive filtering options.",
-        "One of the key highlights is the admin panel, which provides complete control over product management, order processing, and inventory tracking. The integration with Firebase ensures real-time data synchronization and reliable data persistence.",
-        "The app's architecture emphasizes scalability and performance, utilizing Redux for state management and following best practices for mobile app development. The UI/UX design focuses on providing a seamless shopping experience across different device sizes.",
-      ],
-      bullets: [
-        "Implemented secure user authentication and authorization using Firebase",
-        "Designed and developed an intuitive product browsing and shopping cart system",
-        "Created a comprehensive admin panel for product and order management",
-        "Integrated real-time data synchronization using Firebase Database",
-        "Implemented state management using Redux for optimal performance",
-        "Designed responsive UI components following mobile-first principles",
-        "Incorporated smooth animations and transitions for enhanced user experience",
-      ],
-    },
-  },
-  {
-    id: "builtdesign-blogs",
-    companyName: "Builtdesign Blogs",
-    type: "Professional",
-    category: ["Web Dev", "Full Stack", "UI/UX"],
-    shortDescription:
-      "Crafted Builtdesign's vibrant Blogs Website using Netlify CMS and React for engaging content experiences.",
-    websiteLink: "https://blog.builtdesign.in",
-    techStack: ["Next.js", "React", "Node.js", "MongoDB", "Typescript"],
-    startDate: new Date("2022-03-01"),
-    endDate: new Date("2022-07-01"),
-    companyLogoImg: "/projects/builtdesign-blogs/logo.png",
-    pagesInfoArr: [
-      {
-        title: "Blog Landing Page",
-        description:
-          "Modern and responsive landing page showcasing featured articles",
-        imgArr: ["/projects/builtdesign-blogs/blog_2.webp"],
-      },
-      {
-        title: "Blog Listing",
-        description:
-          "Organized display of all blog posts with search and filtering",
-        imgArr: ["/projects/builtdesign-blogs/blog_3.webp"],
-      },
-      {
-        title: "Category Navigation",
-        description: "Intuitive category-based navigation system",
-        imgArr: ["/projects/builtdesign-blogs/blog_1.webp"],
-      },
-      {
-        title: "Article View",
-        description:
-          "Clean and readable article layout with rich media support",
-        imgArr: [
-          "/projects/builtdesign-blogs/blog_4.webp",
-          "/projects/builtdesign-blogs/blog_5.webp",
-        ],
-      },
-    ],
-    descriptionDetails: {
-      paragraphs: [
-        "As part of the Builtdesign platform, I developed a sophisticated blog website that serves as a content hub for the company's thought leadership and industry insights. The project leveraged Next.js and React to create a fast, SEO-friendly platform.",
-        "The blog platform features a modern, responsive design that prioritizes readability and user engagement. I implemented a robust content management system using Netlify CMS, enabling the content team to easily publish and manage blog posts.",
-        "The architecture includes server-side rendering for optimal performance and SEO, while MongoDB provides flexible content storage. TypeScript ensures code reliability and maintainability throughout the application.",
-        "Key features include category-based navigation, search functionality, and a rich text editor for content creation. The platform supports various content types including images, code snippets, and embedded media.",
-      ],
-      bullets: [
-        "Developed a modern blog platform using Next.js and React with TypeScript",
-        "Implemented Netlify CMS for efficient content management",
-        "Created a responsive design that prioritizes readability and user engagement",
-        "Built server-side rendering for optimal performance and SEO",
-        "Integrated MongoDB for flexible content storage and management",
-        "Developed category-based navigation and search functionality",
-        "Implemented rich text editing capabilities for content creation",
-      ],
-    },
-  },
-
-  {
-    id: "cirql-dashboard",
-    companyName: "Cirql Dashboard",
-    type: "Personal",
-    category: ["Web Dev", "Frontend", "UI/UX"],
-    shortDescription:
-      "Created a dashboard project using React and Tailwind CSS, focusing on UI design and routing implementation.",
-    websiteLink: "https://cirql-ui.namanbarkiya.xyz/",
-    techStack: ["React", "Tailwind CSS", "Google Auth"],
-    startDate: new Date("2023-01-01"),
-    endDate: new Date("2023-02-15"),
-    companyLogoImg: "/projects/cirql/logo.png",
-    pagesInfoArr: [
-      {
-        title: "Dashboard Home",
-        description:
-          "Main dashboard view with analytics widgets and data visualization",
-        imgArr: ["/projects/cirql/web_1.png", "/projects/cirql/web_2.png"],
-      },
-      {
-        title: "Profile Page",
-        description:
-          "User profile management interface with customization options",
-        imgArr: ["/projects/cirql/web_3.png", "/projects/cirql/web_4.png"],
-      },
-    ],
-    descriptionDetails: {
-      paragraphs: [
-        "For the 'Cirql Dashboard' personal, I aimed to enhance my UI design skills and deepen my understanding of routing within a React application.",
-        "I utilized React and Tailwind CSS to craft an intuitive dashboard interface that provides users with an organized overview of data and functionalities. The UI components were thoughtfully designed to ensure a seamless user experience.",
-        "Incorporating Google Sign-In Authentication further fortified the project by adding a layer of security and convenience. Users are required to authenticate before accessing certain routes, ensuring the safety of sensitive information.",
-        "The routing system was meticulously implemented to enable smooth navigation between different sections of the dashboard, simulating real-world use cases.",
-        "Through this project, I've gained valuable insights into UI/UX design principles and the implementation of secure and efficient routing in React applications.",
-      ],
-      bullets: [
-        "Created a user-friendly dashboard project using React and Tailwind CSS.",
-        "Implemented Google Sign-In Authentication to ensure secure access to sensitive routes.",
-        "Designed UI components to provide an intuitive and visually pleasing experience.",
-        "Focused on implementing a smooth routing system to simulate real-world use cases.",
-        "Enhanced my skills in UI design, routing, and component architecture.",
-      ],
-    },
-  },
-  {
-    id: "inscript-hindi-typing",
-    companyName: "Inscript Hindi Typing",
-    type: "Personal",
-    category: ["Web Dev", "UI/UX"],
-    shortDescription:
-      "Developed a user-friendly website for Inscript Hindi typing, addressing the need for a simple tool for Hindi writers to convey data digitally.",
-    websiteLink: "https://hindityping.namanbarkiya.xyz",
-    githubLink: "https://github.com/namanbarkiya/inscript-hindi-keyboard",
-    techStack: ["HTML 5", "CSS 3", "Javascript"],
-    startDate: new Date("2022-05-01"),
-    endDate: new Date("2022-06-15"),
-    companyLogoImg: "/projects/hindi-keyboard/logo.png",
-    pagesInfoArr: [
-      {
-        title: "Typing Interface",
-        description: "Minimal and user-friendly Inscript Hindi typing area",
-        imgArr: ["/projects/hindi-keyboard/web_1.png"],
-      },
-      {
-        title: "Copy and Download the file",
-        description:
-          "Export functionality allowing users to copy text or download as a document file",
-        imgArr: [
-          "/projects/hindi-keyboard/web_2.png",
-          "/projects/hindi-keyboard/web_3.png",
-        ],
-      },
-    ],
-    descriptionDetails: {
-      paragraphs: [
-        "The 'Inscript Hindi Typing Website' project emerged from the need to provide a simple and accessible tool for Hindi writers, especially those in digital news and media, who wished to convey data in Hindi.",
-        "Recognizing the challenges posed by complex software in the market, I set out to create a minimalistic typing area that catered to the needs of a vast community of Hindi typists in India.",
-        "The project was designed to address the specific requirements of users familiar with the Inscript keyboard layout, mapping English and Hindi alphabets for seamless typing. The intuitive interface allowed users to effortlessly switch between languages, streamlining the process of content creation.",
-        "Leveraging HTML and CSS, I crafted the website's UI to ensure a user-friendly experience. Additionally, Local Storage was utilized to enable users to save and retrieve their work, enhancing convenience and productivity.",
-        "The website's focus on user experience and simplicity proved to be a key factor in its popularity among Hindi writers. By offering a tool that reduced the barriers to entry, I contributed to the digital empowerment of Hindi typists who previously faced challenges in conveying their message effectively.",
-        "This project marked one of my initial forays into web development and highlighted the transformative potential of technology in addressing real-world challenges.",
-      ],
-      bullets: [
-        "Developed a user-friendly website for Inscript Hindi typing.",
-        "Catered to the needs of Hindi writers in digital news and media.",
-        "Created a minimalistic and intuitive typing interface for the Inscript keyboard layout.",
-        "Mapped English and Hindi alphabets to provide a seamless typing experience.",
-        "Utilized HTML and CSS to design a user-friendly UI.",
-        "Implemented Local Storage to enable users to save and retrieve their work.",
-        "Contributed to the digital empowerment of Hindi typists by offering a simple tool.",
-        "Marked one of my first web development projects, showcasing technology's potential for addressing real-world needs.",
+        "Engineered the combat robot's comprehensive main chassis structure and custom internal housing blocks using advanced solid modeling pipelines inside CATIA.",
+        "Hand-drawn geometric concepts and spatial constraints straight into a fully articulated multi-part 3D assembly model.",
+        "Developed a custom gear-driven transmission drivetrain system configured to smoothly synchronize automated motor outputs with high-velocity front weapon blade rotation tracking loops.",
+        "Conducted assembly dynamic simulations to check joint kinematics and evaluate motion envelopes across moving component sub-assemblies.",
+        "Applied agile, real-time geometry modifications during a tight 48-hour development sprint to tune high-stress weapon clearance tolerances.",
+        "Validated manufacturing and assembly viability entirely within the digital software environment, eliminating design interference errors prior to physical prototyping layout checks."
       ],
     },
   },
